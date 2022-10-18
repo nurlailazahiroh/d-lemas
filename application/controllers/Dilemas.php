@@ -17,7 +17,7 @@ class Dilemas extends CI_Controller
     public function output()
     {
         $data['nama'] = $this->input->post('nama');
-        $data['nim'] = $this->input->post('nim');
+        $data['nis'] = $this->input->post('nis');
         $data['kelas'] = $this->input->post('kelas');
         $data['tanggal'] = $this->input->post('tanggal');
         $data['tempat'] = $this->input->post('tempat');
